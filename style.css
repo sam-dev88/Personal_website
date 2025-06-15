@@ -224,7 +224,7 @@ section {
 }
 /*----------------------------sectionPortfolio-------------------*/
 #portfolio {
-  background-image: url("photos/porftfolio.jpg");
+  background-image: url("photos/student.jpg");
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -405,7 +405,7 @@ textarea {
 
   .logo {
     display: block;
-    width: 40%;
+    width: 15%;
     margin-bottom: 1rem;
   }
 
@@ -420,7 +420,7 @@ textarea {
   }
 
   nav ul li a {
-    font-size: 1.1rem;
+    font-size: 1.rem;
     margin: 0;
     background-color: #444;
     padding: 0.4rem 0.6rem;
@@ -428,7 +428,7 @@ textarea {
   }
 
   .profile {
-    width: 90%;
+    width: 80%;
     margin-top: 2rem;
   }
 
@@ -443,6 +443,7 @@ textarea {
     padding: 1rem;
     width: 95%;
     margin: 0 auto;
+   
   }
 
   .profilecol,
@@ -457,6 +458,9 @@ textarea {
     width: 100%;
     height: auto;
     padding: 1rem;
+  }
+  .box .p1{
+   background-color: #444;
   }
 
   .tabs {
