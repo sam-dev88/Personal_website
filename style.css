@@ -386,74 +386,71 @@ textarea {
   text-align: center;
  }
 
- @media (max-width: 768px) {
-  .footer p{
-   font-size: .7rem;
-   text-align: center;
-   
-  }
- }
+ 
 /*---------------------mobile--------------------*/
 
 @media (max-width: 768px) {
+  body {
+    background-attachment: scroll;
+  }
+
   nav {
     flex-direction: column;
     align-items: flex-start;
-    padding: 1rem 2rem;
+    padding: 1rem 1.5rem;
     height: auto;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 10;
   }
 
   .logo {
-    width: 20%;
+    display: block;
+    width: 40%;
     margin-bottom: 1rem;
-    display: none;
   }
 
   nav ul {
-    display: flex;
     flex-direction: column;
     width: 100%;
+    padding-left: 0;
   }
 
   nav ul li {
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.8rem;
   }
 
   nav ul li a {
-    font-size: 0.8rem;
+    font-size: 1.1rem;
     margin: 0;
-    background-color: darkgoldenrod;
-    padding: 0.1rem 0.5rem;
+    background-color: #444;
+    padding: 0.4rem 0.6rem;
     border-radius: 5px;
   }
 
   .profile {
-    width: 40%;
-    margin-top: 0%;
+    width: 90%;
+    margin-top: 2rem;
   }
 
   h1 {
     font-size: 2rem;
-    padding-top: 0rem;
-    margin-top: 0rem;
+    text-align: center;
+    padding-top: 1rem;
   }
 
   p {
-    font-size: 0.9rem;
-    padding: .3rem .2rem;
+    font-size: 1rem;
+    padding: 1rem;
     width: 95%;
+    margin: 0 auto;
   }
 
   .profilecol,
   .col {
     flex-direction: column;
-    margin: 1rem;
+    margin: 1rem 0.5rem;
   }
-  .box .p1 {
-    background-color: black;
-    padding-top: 1rem;
-    box-shadow: 3px 4px 2px darkgoldenrod;
-  }
+
   .hbox1,
   .hbox2,
   .box {
@@ -464,59 +461,57 @@ textarea {
 
   .tabs {
     flex-direction: column;
-    align-items: flex-start;
-    margin-right: 0.2rem;
-    padding-right: 0rem;
     width: 100%;
   }
 
   .tablinks {
     width: 100%;
-    margin-left: 0;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    font-size: 1rem;
   }
 
   .porContainer {
-    width: 100%;
+    width: 95%;
     height: auto;
-    padding: 0rem;
-    margin-top: 0.5rem;
+    padding: 1rem;
   }
 
   .porContainer h1 {
     font-size: 1.5rem;
+    text-align: center;
   }
 
   .project-card {
-    margin: 1rem 0.5rem;
+    margin: 1rem auto;
     padding: 1rem;
     max-width: 100%;
   }
+
   .project-card h2 {
+    font-size: 1rem;
+  }
+
+  .project-card p {
     font-size: 0.9rem;
   }
-  .project-card p {
-    font-size: 0.8rem;
-    margin-bottom: 1rem;
-  }
-  strong{
-    color: green;
-  }
+
   .divcontacts {
     width: 95%;
     height: auto;
-    padding-bottom: 1rem;
-    margin-top: 0.5rem;
+    padding: 1rem;
   }
-  .divcontacts h1{
-    font-size: 1.2rem;
-    padding-top: .5rem;
+
+  .divcontacts h1 {
+    font-size: 1.5rem;
+    padding-top: 1rem;
   }
-  .divcontacts,
-  h4,
-  ul li a {
-    font-size: 0.8rem;
+
+  h4, ul li a {
+    font-size: 0.9rem;
     text-align: justify;
   }
+
   .contact-container {
     flex-direction: column;
     padding: 1rem;
@@ -531,11 +526,15 @@ textarea {
   input,
   textarea {
     width: 100%;
+    font-size: 1rem;
   }
 
   .submitbtn {
     width: 100%;
+    font-size: 1rem;
   }
 
-  
+  .footer p {
+    font-size: 0.8rem;
+  }
 }
