@@ -1,0 +1,11 @@
+
+
+services:
+  - type: web
+    name: personal-website
+    env: php
+    branch: main
+    buildCommand: ""
+    startCommand: php -S 0.0.0.0:10000
+    region: oregon
+    plan: free
