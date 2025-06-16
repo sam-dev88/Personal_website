@@ -20,6 +20,7 @@
         <li><a href="#contacts">Contacts</a></li>
       </ul>
     </nav>
+
     <div class="divprofile">
       <div class="profilecol">
         <div class="hbox1"><img src="photos/sam.jpeg" alt="profile" class="profile" />
@@ -35,11 +36,9 @@
         </div>
       </div>
     </div>
-
-
-
   </header>
-  <!---------------------sectionAbout-------------------------->
+  
+  <!-----------------------------sectionAbout-------------------------->
   <div class="divsection">
     <section id="about">
       <div class="col">
@@ -82,7 +81,7 @@
                 <span class="year2">Present</span><br>Created and deployed a personal website to showcase my work
               </li>
               <li>
-                <span class="year2">Present</span><br>Currently learning PHP, MySQL and eploring backend development
+                <span class="year2">Present</span><br>Currently learning PHP, MySQL and exploring backend development
               </li>
             </ul>
           </div>
@@ -99,11 +98,7 @@
         </div>
       </div>
     </section>
-
-
-
-    </section>
-
+<!--------------------------------sectionPortfolio------------------------------>
     <section id="portfolio">
       <div class="porContainer">
         <h1>My Portfolio</h1>
@@ -119,15 +114,12 @@
             <li><strong>Status:</strong> In Progress / Continuously Improving</li>
           </ul>
 
-          <a href="/" class="project-link" target="_blank">Visit Website</a>
-          <!-- If hosted somewhere like GitHub Pages or Netlify, put full link -->
-          <!-- Optional: Add GitHub repo link -->
-          <a href="https://tayansam.github.io/Personal_website/" class="project-link" target="_blank">View Code</a>
+          <a href="https://tayansam.github.io/Personal_website/" class="project-link" target="_blank">Visit Website</a>
+
         </div>
       </div>
     </section>
-
-
+<!-----------------------------------------sectionContact------------------------->
     <section id="contacts">
       <div class="divcontacts">
         <h1>Contact me</h1>
@@ -148,7 +140,7 @@
               </li>
               <br />
               <li>
-                <a href="#"><i class="fab fa-linkedin" style="margin-right: 10px"></i>
+                <a href="https://www.linkedin.com/in/samira-omar-85082b31a/"><i class="fab fa-linkedin" style="margin-right: 10px"></i>
                   LinkedIn</a>
               </li>
               <li>
@@ -159,7 +151,7 @@
             </ul>
           </div>
 
-          <form action="#" method="post" class="contactform">
+          <form action="contact.php" method="post" class="contactform" id="contactform">
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" autocomplete="name" required />
 
@@ -174,7 +166,6 @@
         </div>
       </div>
     </section>
-  </div>
 
   <script>
     var tablinks = document.getElementsByClassName("tablinks");
@@ -193,13 +184,13 @@
       document.getElementById(tabname).classList.add("tabactive");
     }
   </script>
-     
-     <footer class="footer">
-      <p>&copy; 2025 Sam's Personal Website. <br> All rights reserved. <br>
-      Made with ❤️ and determination while learning HTML, CSS, and JavaScript.</p>
-    </footer>
     
-    
-</body>
+    <script src="form.js"></script>
 
+  <footer class="footer">
+    <p>&copy; 2025 Sam's Personal Website. <br> All rights reserved. <br>
+      Made with ❤️ and determination while learning HTML, CSS, and JavaScript.</p>
+  </footer>
+
+</body>
 </html>
