@@ -15,7 +15,6 @@ document.addEventListener("DOMContentLoaded", () => {
       const result = await response.text();
 
       alert(result); // Show PHP response message
-
       if (result.toLowerCase().includes("thank you")) {
         form.reset(); // Clear form on success
       }
