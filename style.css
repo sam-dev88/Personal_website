@@ -542,3 +542,11 @@ textarea {
     font-size: 0.8rem;
   }
 }
+
+#msg{
+ color: orange;
+ font-weight: 500;
+ margin-top: -10px;
+ display: block;
+ text-align: center;
+}
