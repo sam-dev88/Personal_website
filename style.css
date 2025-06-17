@@ -544,6 +544,10 @@ textarea {
     width: 100%;
     font-size: 1rem;
   }
+  .submitbtn:hover {
+    background-color: #f97c06;
+    transition: background-color 0.3s ease;
+    transform: scale(1.1);
 
   .footer p {
     font-size: 0.8rem;
