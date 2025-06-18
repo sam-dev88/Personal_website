@@ -363,7 +363,7 @@ textarea {
   box-shadow: -1px 1px 0px greenyellow;
 }
 .submitbtn {
-  width: 50%;
+  width: 25%;
   height: 4vh;
   border-radius: 20px;
   border: none;
@@ -398,7 +398,7 @@ textarea {
 
 @media (max-width: 768px) {
   body {
-    background-attachment: scroll;
+    background-attachment: fixed;
   }
 
   nav {
@@ -435,7 +435,7 @@ textarea {
   }
 
   .profile {
-    width: 80%;
+    width: 60%;
     margin-top: 2rem;
   }
 
@@ -541,16 +541,25 @@ textarea {
   }
 
   .submitbtn {
-    width: 100%;
+    width: 25%;
     font-size: 1rem;
   }
   .submitbtn:hover {
     background-color: #f97c06;
     transition: background-color 0.3s ease;
     transform: scale(1.1);
+    width: 20%;
 
-  .footer p {
-    font-size: 0.8rem;
+    .footer p {
+      font-size: 0.8rem;
+    }
+  }
+  #msg {
+    color: orange;
+    font-weight: 500;
+    margin-top: -10px;
+    display: block;
+    text-align: center;
   }
 }
 
