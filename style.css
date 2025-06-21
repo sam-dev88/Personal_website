@@ -410,8 +410,9 @@ textarea {
   }
 
   .logo {
-    display: block;
-    width: 15%;
+    width: 13%;
+    height: 40px;
+    border-radius: 0;
     margin-bottom: 1rem;
   }
 
