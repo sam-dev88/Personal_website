@@ -428,7 +428,7 @@ textarea {
   }
 
   .profile {
-    width: 50%;
+    width: 60%;
     margin: 0;
   }
 
@@ -457,12 +457,6 @@ textarea {
     width: 100%;
     height: auto;
     padding: 1rem;
-  }
-  .hbox1 {
-    margin-bottom: 0;
-  }
-  .hbox2 {
-    margin-top: 0;
   }
 
   .box .p1 {
