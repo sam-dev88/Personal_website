@@ -334,15 +334,16 @@ h4 {
   padding-bottom: 0rem;
 }
 ul li a {
-  color: orange;
-  font-size: 1.5rem;
-  display: inline;
+  color: rgb(235, 77, 15);
+  
+ 
 }
 ul li a :hover {
   color: yellowgreen;
 }
 ul li {
   list-style: none;
+  font-size: 2rem;
 }
 .contact-info {
   display: flex;
@@ -369,17 +370,17 @@ textarea {
   box-shadow: -1px 1px 0px greenyellow;
 }
 .submitbtn {
-  width: 25%;
+  width: 50%;
   height: 4vh;
   border-radius: 20px;
   border: none;
   align-self: center;
-  padding-top: 0rem;
   background-color: greenyellow;
   font-size: 1rem;
   font-weight: 600;
   box-shadow: -1px 1px 0px white;
   cursor: pointer;
+  margin-top: 20px;
 }
 .submitbtn:hover {
   background-color: #f97c06;
@@ -560,7 +561,7 @@ textarea {
   }
 
   .submitbtn {
-    width: 25%;
+    width: 100%;
     font-size: 1rem;
   }
   .submitbtn:hover {
@@ -583,9 +584,8 @@ textarea {
 }
 
 #msg {
-  color: orange;
+  color: rgb(245, 106, 7);
   font-weight: 500;
-  margin-top: -10px;
   display: block;
   text-align: center;
 }
