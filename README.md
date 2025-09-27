@@ -2,7 +2,7 @@
 
 This is my personal portfolio website built with HTML, CSS, and JavaScript. It showcases my background, skills, and projects as I work toward becoming a Frontend Developer.
 
-🔗 **Live Site**: [https://tayansam.github.io/Personal_website](https://tayansam.github.io/Personal_website)
+🔗 **Live Site**: [https://sam-dev88.github.io/Personal_website](https://sam-dev88.github.io/Personal_website)
 
 ---
 
@@ -28,5 +28,5 @@ This is my personal portfolio website built with HTML, CSS, and JavaScript. It s
 Clone the repository and open `index.html` in your browser:
 
 ```bash
-git clone https://github.com/tayansam/Personal_website.git
+git clone https://github.com/sam-dev88/Personal_website.git
 cd Personal_website
